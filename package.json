@@ -1,0 +1,25 @@
+{
+  "name": "gulp-image-optimization-task",
+  "version": "1.0.0",
+  "description": "Task to optimazed images",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VRedondo/gulp-image-optimization-task.git"
+  },
+  "author": "Victor Redondo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VRedondo/gulp-image-optimization-task/issues"
+  },
+  "homepage": "https://github.com/VRedondo/gulp-image-optimization-task#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-watch": "^4.3.9"
+  }
+}
