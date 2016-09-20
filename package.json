@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/VRedondo/gulp-image-optimization-task#readme",
   "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-imageoptim": "^1.4.1",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
     "gulp-imagemin": "^3.0.3",
-    "gulp-watch": "^4.3.9"
+    "gulp-watch": "^4.3.9",
+    "imageoptim-cli": "^1.14.8"
   }
 }

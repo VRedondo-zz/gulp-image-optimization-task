@@ -1,3 +1,5 @@
+'use strict';
+
 let gulp = require('gulp'),
     imagemin = require('gulp-imagemin'),
     watch = require('gulp-watch'),
@@ -7,7 +9,8 @@ let gulp = require('gulp'),
 
 gulp.task('watch', () => {
     watch(srcImages, (e) => {
-        let {history, event} = e,
+        let history = e.history,
+            event = e.event,
             fileName = history[0].split('/').pop();
         if(event === 'unlink'){
             // remove file in dist
